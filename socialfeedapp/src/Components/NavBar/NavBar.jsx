@@ -1,12 +1,13 @@
 // import needed dependencies
 import './NavBar.css';
-import { NavBar } from 'react-bootstrap';
+import React from 'react';
+import { Navbar } from 'react-bootstrap';
 
 const NavBar = (props) => {
     return (
-        <NavBar bg="info" variant="dark">
-            <h3><small className="text-musted">void</small>screams</h3>
-        </NavBar>
+        <Navbar bg="info" variant="dark">
+            <h3><small className="text-musted">Social</small>Feed</h3>
+        </Navbar>
     );
 }
 // export our Navbar prop

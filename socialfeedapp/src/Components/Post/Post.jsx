@@ -38,7 +38,7 @@ const Post = (props) => {
             <p>{props.post.postBody}</p>
             <span>
                 <ThumbsUp height='1rem' fill={likeColor} style ={{'margin-right': '1em'}} onClick={() => toggleLikeDislike("like")}/>
-                <ThumbsDown height='1rem' fill={dislikeColor} onClick={() => toggleLikeDislike("like")}/>
+                <ThumbsDown height='1rem' fill={dislikeColor} onClick={() => toggleLikeDislike("dislike")}/>
             </span>
         </div>
 
